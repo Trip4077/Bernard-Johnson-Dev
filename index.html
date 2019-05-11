@@ -29,25 +29,23 @@
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
 						<li>
-							<a href="#">Dropdown</a>
+							<a href="#">Menu</a>
 							<ul>
-								<li><a href="#">Lorem ipsum dolor</a></li>
-								<li><a href="#">Magna phasellus</a></li>
+								<li><a href="#tech" class='scrolly'>Tech Stack</a></li>
+								<li><a href="#skills" class='scrolly'>All Skills</a></li>
 								<li>
-									<a href="#">Phasellus consequat</a>
+									<a href="#">Projects</a>
 									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
+										<li><a href="#row-1" class='scrolly'>Textflix</a></li>
+										<li><a href="#row-1" class='scrolly'>Safe-Space</a></li>
+										<li><a href="#row-2" class='scrolly'>Guidr</a></li>
+										<li><a href="#row-2" class='scrolly'>Ignitus</a></li>
 									</ul>
 								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
+								<li><a href="#contact" class='scrolly'>Contact</a></li>
 							</ul>
 						</li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="./assets/Bernard_Johnson_Resume.pdf">Resume</a></li>
 					</ul>
 				</nav>
 
@@ -56,7 +54,7 @@
 					<div class="content">
 						<h2>Bernard Johnson</h2>
 						<p>Full Stack Engineer That Loves Building and Breaking</p>
-						<a href="#main" class="button scrolly">Alright Let's Go</a>
+						<a href="./assets/Bernard_Johnson_Resume.pdf" download='Bernard_Johnson_Resume.pdf' class='button'>Download Resume</a>
 					</div>
 				</section>
 
@@ -66,8 +64,8 @@
 						<div class="row gtr-200">
 							<div class="col-12">
 
-								<!-- Highlight -->
-									<section class="box highlight">
+								<!-- Technologies -->
+									<section class="box highlight" id='tech'> 
 										<header>
 											<h2>Technologies</h2>
 											<p>Check Out a List of Some of My Regularly Used Tech</p>
@@ -102,6 +100,8 @@
 											<li><img src='./images/git.png' alt='Git Logo' height='135px' width='135px' /></li>
 											<li><img src='./images/yarn.png' alt='Yarn Logo' height='135px' width='135px' /></li>
 											<li><img src='./images/npm.png' alt='NPM Logo' height='135px' width='135px' /></li>
+											<li><img src='./images/heroku.png' alt='Heroku Logo' height='135px' width='135px' /></li>
+											<li><img src='./images/netlify.jpg' alt='Netlify Logo' height='135px' width='135px' /></li>
 										</ul>
 									</section>
 
@@ -112,13 +112,13 @@
 									<section class="box features">
 										<h2 class="major"><span>Projects and Experience</span></h2>
 										<div>
-											<div class="row flex">
+											<div class="row flex" id='row-1'>
 												<div class="col-4 col-6-medium col-12-small">
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured" target='_blank'><img src="./images/textflix.PNG" alt="Textflix Landing Page" /></a>
-															<h3><a href="#" target='_blank'>Textflix</a></h3>
+															<a href="https://heuristic-swirles-5d0a2b.netlify.com/" class="image featured" target='_blank'><img src="./images/textflix.PNG" alt="Textflix Landing Page" /></a>
+															<h3><a href="https://heuristic-swirles-5d0a2b.netlify.com/" target='_blank'>Textflix</a></h3>
 															<p>
 																Movie Schedule App for SMS Reminders
 															</p>
@@ -140,7 +140,7 @@
 															</ul>
 
 															<a href="https://github.com/Trip4077?tab=projects" class="button" target='_blank'>Code</a>
-															<a href="#" class="button" target='_blank'>Demo</a>
+															<a href="https://heuristic-swirles-5d0a2b.netlify.com/" class="button" target='_blank'>Demo</a>
 														</section>
 
 												</div>
@@ -176,7 +176,7 @@
 											</div>
 
 											
-											<div class='row flex'>
+											<div class='row flex' id='row-2'>
 													<div class="col-4 col-6-medium col-12-small">
 
 															<!-- Feature -->
@@ -244,9 +244,9 @@
 				<footer id="footer">
 					<div class="container">
 						<div class="row gtr-200">
-							<div class="col-12">
+							<div class="col-12" id='skills'>
 
-								<!-- About -->
+								<!-- All Tech -->
 									<section>
 										<h2 class="major"><span>Full List of Technologies</span></h2>
 										<ul class="divided">
@@ -293,21 +293,47 @@
 													<li>Python</li>
 												</ul>
 											</li>
+											<li>
+												<ul class='flex width-1'>
+													<li>Git</li>
+													<li>GitHub</li>
+													<li>Heroku</li>
+													<li>Netlify</li>
+													<li>Yarn</li>
+													<li>NPM</li>
+													<li>PIP</li>
+													<li>Linux</li>
+												</ul>
+											</li>
 										</ul>
 									</section>
 
 							</div>
-							<div class="col-12">
+							<div class="col-12" id='contact'>
 
 								<!-- Contact -->
 									<section>
 										<h2 class="major"><span>Get in touch</span></h2>
+
+										
+										<div class='flex'>
+											<div>
+												<h4>Phone:</h4> 
+												<p>(276) 469-1994</p>
+											</div>
+
+											<div>
+												<h4>Email:</h4> 
+												<p>letslearntechyt@gmail.com</p>
+											</div>
+										</div>
+
 										<ul class="contact">
-											<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
-											<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-											<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-											<li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-											<li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
+											<li><a class="icon fa-github" href="https://github.com/Trip4077/" target='_blank'><span class="label">GitHub</span></a></li>
+											<li><a class="icon fa-twitter" href="https://twitter.com/Bernard88313685" target='_blank'><span class="label"></span></a></li>
+											<li><a class="icon fa-codepen" href="https://codepen.io/Trip4077/" target='_blank'><span class="label">Codepen</span></a></li>
+											<li><a class="icon fa-linkedin" href="https://www.linkedin.com/in/bernard-johnson-b59b86168/" target='_blank'><span class="label">LinkedIn</span></a></li>
+											<li><a class="icon fa-youtube" href="https://www.youtube.com/channel/UCvsQHqoRL2R1POyKDL8qvkQ" target='_blank'><span class="label">YouTube</span></a></li>
 										</ul>
 									</section>
 
